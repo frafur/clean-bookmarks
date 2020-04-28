@@ -1,5 +1,5 @@
 # clean-bookmarks
-read bookmarks file (chrome and firefox) and create two files filtering by add_date: recent bookmarks and old bookmarks, in order to keep new bookmarks and archive old ones.
+reads bookmarks file (chrome and firefox) and creates two files filtering by add_date: recent bookmarks and old bookmarks, in order to keep new bookmarks and archive old ones.
 
 usage: php filter.php 
 input: bookmarks.html (from chrome export functions in settings)
