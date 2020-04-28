@@ -1,2 +1,6 @@
 # clean-bookmarks
-split bookmarks file (chrome and firefox) in two files filtering by add_date: recent bookmarks and old bookmarks, in order to keep new bookmarks and archive old ones.
+read bookmarks file (chrome and firefox) and create two files filtering by add_date: recent bookmarks and old bookmarks, in order to keep new bookmarks and archive old ones.
+
+usage: php filter.php 
+input: bookmarks.html (from chrome export functions in settings)
+output: outputnew.html (to be imported, just new bookmarks) + outputold.html (just old bookmarks for backup)
